@@ -4,8 +4,6 @@ from dataclasses import dataclass, field
 from typing import List, Tuple, Optional
 import random
 
-from simulacion.territorio import Territorio
-
 # Lista de roles que usamos en la simulación
 ROLES = ["recolector", "guerrero", "comerciante", "explorador", "avaro"]
 
